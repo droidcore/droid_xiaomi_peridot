@@ -10,12 +10,6 @@ audio.offload.min.duration.secs=30
 # Disable Skia tracing by default
 debug.hwui.skia_atrace_enabled=false
 
-# App launch prefetching (IORapd)
-ro.iorapd.enable=false
-iorapd.perfetto.enable=false
-iorapd.readahead.enable=false
-persist.device_config.runtime_native_boot.iorap_readahead_enable=false
-
 # Low Memory Killer Daemon
 ro.lmk.log_stats=false
 ro.lmk.debug=false

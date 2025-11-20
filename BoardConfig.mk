@@ -9,9 +9,6 @@ DEVICE_PATH := device/xiaomi/peridot
 BUILD_BROKEN_DUP_RULES := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
-# Inherit from proprietary files for miuicamera
--include device/xiaomi/peridot-miuicamera/BoardConfig.mk
-
 # A/B
 AB_OTA_PARTITIONS := \
     boot \
@@ -189,9 +186,6 @@ TARGET_KERNEL_EXT_MODULES := \
     qcom/opensource/mm-sys-kernel/ubwcp \
     qcom/opensource/touch-drivers \
     nxp/opensource/driver
-
-# MiuiCamera
-CAMERA_PACKAGE_NAME := com.android.camera
 
 # Partitions
 ifneq ($(PRODUCT_RO_FILE_SYSTEM), erofs)
