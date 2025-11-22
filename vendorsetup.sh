@@ -50,6 +50,12 @@ echo "Cloning FastCharge..."
 rm -rf packages/apps/FastCharge
 git clone -b lineage-23.1 https://github.com/sm8635-dev/packages_apps_FastCharge.git packages/apps/FastCharge
 
+# diag (cherry pick)
+echo "Fetching QPR1 compat..."
+cd device/xiaomi/peridot
+git fetch https://github.com/GuidixX/device_xiaomi_peridot
+git cherry-pick 4f78def327d817d4c3a9e99ed439dcff64183365
+
 # Compat (cherry pick)
 echo "Fetching QPR1 compat..."
 cd hardware/lineage/compat
