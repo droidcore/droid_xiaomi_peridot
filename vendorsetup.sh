@@ -18,7 +18,7 @@ git clone -b lineage-23.0 --depth 1 https://github.com/peridot-dev/android_kerne
 # Hardware xiaomi (fresh clone)
 echo "Cloning hardware xiaomi source..."
 rm -rf hardware/xiaomi
-git clone -b lineage-23.0 https://github.com/sm8635-dev/hardware_xiaomi.git hardware/xiaomi
+git clone -b lineage-23.1 https://github.com/sm8635-dev/hardware_xiaomi.git hardware/xiaomi
 
 # MiuiCamera device tree (fresh clone)
 echo "Cloning MiuiCamera device tree..."
@@ -38,7 +38,7 @@ git clone https://github.com/TogoFire/packages_apps_ViPER4AndroidFX.git packages
 # KProfiles (fresh clone)
 echo "Cloning KProfiles..."
 rm -rf packages/apps/KProfiles
-git clone -b lineage-23.0 https://github.com/sm8635-dev/packages_apps_KProfiles.git packages/apps/KProfiles
+git clone -b lineage-23.1 https://github.com/sm8635-dev/packages_apps_KProfiles.git packages/apps/KProfiles
 
 # Gamebar
 echo "Cloning Gamebar tree..."
@@ -48,7 +48,7 @@ git clone https://github.com/droidcore/packages_apps_GameBar.git packages/apps/G
 # FastCharge (fresh clone)
 echo "Cloning FastCharge..."
 rm -rf packages/apps/FastCharge
-git clone -b lineage-23.0 https://github.com/sm8635-dev/packages_apps_FastCharge.git packages/apps/FastCharge
+git clone -b lineage-23.1 https://github.com/sm8635-dev/packages_apps_FastCharge.git packages/apps/FastCharge
 
 # Compat (cherry pick)
 echo "Fetching QPR1 compat..."
